@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Weight Tracker</string>
+    <string name="sms_status"></string>
+    <string name="greeting"></string>
+    <string name="add_weight">Add Weight</string>
+    <string name="date">Date</string>
+    <string name="weight">Weight</string>
+    <string name="submit">Submit</string>
+    <string name="change_target_weight">Change Target Weight</string>
+    <string name="target_weight">Target Weight</string>
+    <string name="current_weight">Current Weight</string>
+    <string name="change_target">Change Target</string>
+    <string name="sms">SMS</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="database_date"></string>
+    <string name="database_weight"></string>
+    <string name="database_target"></string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="date_hint">Enter Date</string>
+    <string name="weight_hint">Enter Weight</string>
+</resources>

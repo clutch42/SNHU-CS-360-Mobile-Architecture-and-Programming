@@ -1,0 +1,46 @@
+<!-- activity_add_weight.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Text View for the Message -->
+    <TextView
+        android:id="@+id/textViewAddWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_weight"
+        android:textSize="24dp"
+        android:layout_margin="18dp"
+        android:textStyle="bold"/>
+
+    <!-- Edit Text for Date -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:layout_below="@id/textViewAddWeight"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Edit Text for Weight -->
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/weight"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextDate"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to Submit -->
+    <Button
+        android:id="@+id/buttonSubmitWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@id/editTextWeight"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
