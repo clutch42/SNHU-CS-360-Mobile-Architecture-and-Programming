@@ -1,5 +1,17 @@
 # CS-360-Mobile-Architect-Programming
+## Course Description
+Students will apply mobile development principles and best practices to develop mobile 
+applications using user-centered design principles and industry standards. Upon completion of 
+a fully-functional mobile application, students will conduct security, product assuredness, and 
+compatibility checks before launching the application.
+## Course Competencies
+This course covers the following competencies, which represent the knowledge and skills 
+relevant to your field:
+- CS-30421: Apply mobile application development principles and best practices in the development of a mobile application
+- CS-30422: Apply user-centered design principles and industry standards in the development of a mobile application
+- CS-30423: Develop and launch a fully functional mobile application
 
+## Projects
 Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address? The requirement for the app that I developed were to create a weight tracking app with a login, ability to add, update, and delete a daily weight, add and update a target weight, and send a sms message if the target weight is reached if the permission is granted, otherwise just let the user know in app. This is meant to help a user track and compare their weight to a target.
 
 What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful? I ended up with more layouts than I thought i would for such a simple app, but I feel all of them where necessary to make it easy to read and navigate. I think the design I implemented is easy on the eyes, easy to hit the buttons, and easy to navigate, which are all important for the user experience.
