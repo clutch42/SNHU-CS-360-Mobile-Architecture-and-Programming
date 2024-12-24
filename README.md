@@ -7,8 +7,8 @@ compatibility checks before launching the application.
 ## Course Competencies
 This course covers the following competencies, which represent the knowledge and skills 
 relevant to your field:
-- CS-30421: Apply mobile application development principles and best practices in the development of a mobile application
-- CS-30422: Apply user-centered design principles and industry standards in the development of a mobile application
+- CS-30421: Apply mobile application development principles and best practices in the development of a mobile application
+- CS-30422: Apply user-centered design principles and industry standards in the development of a mobile application
 - CS-30423: Develop and launch a fully functional mobile application
 
 ## Projects
