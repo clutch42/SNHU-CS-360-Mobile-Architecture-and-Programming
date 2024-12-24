@@ -1,0 +1,104 @@
+<!-- activity_data_display.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/labelsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp">
+
+        <!-- Label for Date -->
+        <TextView
+            android:id="@+id/textViewDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_weight="1"/>
+
+        <!-- Label for Current Weight -->
+        <TextView
+            android:id="@+id/textViewCurrentWeightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_weight"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_weight="1"/>
+
+        <!-- Label for Target Weight -->
+        <TextView
+            android:id="@+id/textViewTargetWeightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_weight"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- RecyclerView for the grid -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewData"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp">
+
+        <!-- Button for adding data -->
+        <Button
+            android:id="@+id/buttonAddData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_weight" />
+
+        <!-- Button for changing target weight -->
+        <Button
+            android:id="@+id/buttonChangeTargetWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/change_target" />
+
+        <Button
+            android:id="@+id/buttonRequestPermission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sms" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_status"
+        android:layout_weight="1"
+        android:textSize="16dp"/>
+</LinearLayout>

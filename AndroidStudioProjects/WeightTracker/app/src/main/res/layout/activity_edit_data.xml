@@ -1,0 +1,64 @@
+<!-- activity_edit_data.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView for "Edit Data" -->
+    <TextView
+        android:id="@+id/textViewEditData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_data"
+        android:textSize="24dp"
+        android:layout_margin="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView for "Date" -->
+    <TextView
+        android:id="@+id/textViewDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="16dp"
+        android:layout_below="@id/textViewEditData"
+        android:layout_marginTop="16dp"/>
+
+    <!-- EditText for "Date" -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/textViewDateLabel"
+        android:layout_marginTop="8dp"
+        android:hint="@string/date_hint"/>
+
+    <!-- TextView for "Weight" -->
+    <TextView
+        android:id="@+id/textViewWeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:textSize="16dp"
+        android:layout_below="@id/editTextDate"
+        android:layout_marginTop="16dp"/>
+
+    <!-- EditText for "Weight" -->
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/textViewWeightLabel"
+        android:layout_marginTop="8dp"
+        android:hint="@string/weight_hint"/>
+
+    <!-- Button to submit data -->
+    <Button
+        android:id="@+id/buttonSubmitData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@id/editTextWeight"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
