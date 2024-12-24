@@ -1,0 +1,9 @@
+Hi everyone. I am going to compare the steam app and the amazon app.
+
+Theme: The steam app is basically a storefront for video games, a library of games you own, and a launcher for those games. The amazon app is a huge marketplace that you can buy just about anything in. They are similar in the fact that the home page is a scrolling list of products that are either trending or match your interests that you can purchase.
+
+Color: The steam app uses a dark color theme. Generally speaking, dark color theme is used when you are in a darker environment. I usually play games at night, so this theme makes sense to me. Amazon app uses a light color theme. I use that app at all times so defaulting to a light color theme makes sense, and I'm sure that there is a way to switch to a dark color theme if you wanted to.&nbsp;
+
+Typography: The steam app uses mostly headers and very little actual typed content in favor of screenshots and videos with captions of the games it is trying to sell. Most of the type is in menus and lists, which is ideal in an app because people don't read most of the content anyway. The amazon app is almost exactly the same in this aspect. Very little actual content and lots of pictures and lists and menus to get you where you want to go with minimal reading. In both cases the font is pretty standard and provides good contrast to the background.&nbsp;
+
+Layout: The steam app&nbsp;

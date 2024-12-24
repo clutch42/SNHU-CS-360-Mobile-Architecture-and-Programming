@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SensorManager Project</string>
+    <string name="header">Accelerometer</string>
+    <string name="values"></string>
+</resources>

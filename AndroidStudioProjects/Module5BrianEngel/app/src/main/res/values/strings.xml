@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Module 3 Brian Engel</string>
+    <string name="textview"></string>
+    <string name="button_text">Say Hello</string>
+</resources>
